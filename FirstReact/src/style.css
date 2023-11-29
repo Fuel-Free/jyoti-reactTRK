@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.todo-container{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(214, 210, 201);
+    border-radius: 15px;
+    border: none;
+
+}
+.header-container{
+    display: flex;
+    padding:10px 0 0 30px;
+    justify-content: space-between;
+}
+
+.todo-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 25px;
+    padding: 0 20px 0 10px ;
+}
+
+.button-container{
+    width:98%;
+    margin: 1% 1%;  
+    border-radius: 15px;
+    border: none;
+    font-size: 20px;
+    box-sizing: 23px;
+    background-color: rgb(180, 179, 175);
+    box-shadow: 5px 5px 5px rgb(129, 131, 131);
+
+}
+
